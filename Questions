@@ -1,0 +1,16 @@
+public class ReplaceValue {
+
+	public static void main (String[] args) {
+		
+		int a = 1;
+		int b = 2;
+	
+		a = a + b;
+		b = a - b;
+		a = a - b;
+		
+		system.out.println(“The value of the 1st variable: “ + a);
+		system.out.println(“The value of the 2nd variable: “ + b);
+
+	}
+}
